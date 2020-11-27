@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPlayer_Example' do
+  pod 'SPlayer', :path => '../'
+
+  target 'SPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
