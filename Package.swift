@@ -12,11 +12,6 @@ let package = Package(
             name: "SPlayer",
             targets: ["SPlayer"]),
     ],
-//    dependencies: [
-//        // Dependencies declare other packages that this package depends on.
-//        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0")),
-//        .package(url: "https://github.com/onevcat/Kingfisher.git", .upToNextMajor(from: "6.0.0")),
-//    ],
     targets: [
         .target(
             name: "SPlayer",
