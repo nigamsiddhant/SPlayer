@@ -27,3 +27,4 @@ siddhant nigam, nigamsiddhant@gmail.com
 ## License
 
 SPlayer is available under the MIT license. See the LICENSE file for more info.
+# SPlayer
