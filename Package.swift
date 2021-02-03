@@ -23,7 +23,7 @@ let package = Package(
 //        .target(name: "MyFirstSPM", dependencies: ["Kingfisher", "Alamofire"])
         .target(
             name: "SPlayer",
-            dependencies: ["Alamofire"]),
+            dependencies: []),
 //        .testTarget(
 //            name: "MyFirstSPMTests",
 //            dependencies: ["MyFirstSPM"]),
