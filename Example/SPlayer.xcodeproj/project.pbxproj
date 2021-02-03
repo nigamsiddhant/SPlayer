@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0D52936975993E145AAF2648 /* Pods-SPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-SPlayer_Example/Pods-SPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2C73D0FD5DB6516AFC972C7D /* Pods-SPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-SPlayer_Example/Pods-SPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3222F4D03B95CF5146E1D09C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3222F4D03B95CF5146E1D09C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3AB60FEBFCDDEE1FEB83BA5C /* Pods_SPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0862CE68C367FBBED70CD6 /* Pods-SPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-SPlayer_Tests/Pods-SPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		977CBDA5E30A6E9245A58B6A /* Pods_SPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C744F49F7702E2E1395E5DCF /* Pods-SPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SPlayer_Tests/Pods-SPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEB4718C7323E73792B09837 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FBB420170F915D6EA0613C3F /* SPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SPlayer.podspec; path = ../SPlayer.podspec; sourceTree = "<group>"; };
+		DEB4718C7323E73792B09837 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBB420170F915D6EA0613C3F /* SPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPlayer.podspec; path = ../SPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				C744F49F7702E2E1395E5DCF /* Pods-SPlayer_Tests.debug.xcconfig */,
 				3D0862CE68C367FBBED70CD6 /* Pods-SPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5RKV9WKAZP;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +479,7 @@
 			baseConfigurationReference = 0D52936975993E145AAF2648 /* Pods-SPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RKV9WKAZP;
 				INFOPLIST_FILE = SPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = 2C73D0FD5DB6516AFC972C7D /* Pods-SPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RKV9WKAZP;
 				INFOPLIST_FILE = SPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

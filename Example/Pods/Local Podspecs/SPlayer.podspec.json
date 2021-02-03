@@ -1,0 +1,22 @@
+{
+  "name": "SPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of SPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/siddhant nigam/SPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "siddhant nigam": "nigamsiddhant@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/siddhant nigam/SPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SPlayer/Classes/**/*"
+}
